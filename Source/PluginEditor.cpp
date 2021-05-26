@@ -338,7 +338,8 @@ OdinAudioProcessorEditor::OdinAudioProcessorEditor(OdinAudioProcessor &p_process
 #ifdef ODIN_DEBUG
 	    + " Debug"
 #endif
-	    + "\ngit commit: " + GIT_COMMIT_ID);
+	   // + "\ngit commit: " + GIT_COMMIT_ID
+	);
 
 	m_question_button.onClick = [&]() {};
 

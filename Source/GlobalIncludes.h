@@ -21,7 +21,7 @@
 #include <iomanip> // setprecision
 #include <sstream> // stringstream
 
-#include "GitCommitId.h"
+//#include "GitCommitId.h"
 
 #ifdef ODIN_LINUX
 #endif

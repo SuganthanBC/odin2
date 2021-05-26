@@ -30,6 +30,7 @@ public:
     WavetableDisplay();
     ~WavetableDisplay();
 
+    WavetableContainer *m_WT_container;
     void paint (Graphics&) override;
     
     void setVariables(int p_lower, int p_higher, float p_interpol){
